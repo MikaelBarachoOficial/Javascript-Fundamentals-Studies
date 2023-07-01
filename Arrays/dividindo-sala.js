@@ -2,8 +2,10 @@ const alunos =['João', 'Juliana', 'Ana', 'Caio', 'Lara', 'Marjorie', 'Guilherme
 
 console.log(alunos)
 
-const sala1 = alunos.slice(0, 10)
-const sala2 = alunos.slice(10)
+var metade = alunos.length / 2
+
+const sala1 = alunos.slice(0, metade)
+const sala2 = alunos.slice(metade)
 
 console.log(sala1)
 console.log(sala2)
